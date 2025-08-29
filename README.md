@@ -32,7 +32,7 @@ Dataset configuration is provided in data.yaml (included in repo).
 
 To train YOLOv8s with 640×640 input size for 50 epochs:
 
-yolo detect train data=data.yaml model=yolov8s.pt imgsz=640 epochs=50 batch=16 project=oralvis name=tooth_yolo
+yolo detect train data=data.yaml model=yolov8s.pt imgsz=640 epochs=100 batch=16 project=oralvis name=tooth_yolo
 
 📊 Evaluation
 
@@ -70,7 +70,7 @@ Data split: 80% train, 10% validation, 10% test.
 
 Used YOLOv8s pretrained weights with input resolution 640×640.
 
-Trained for 50 epochs, batch size 16.
+Trained for 100 epochs, batch size 16.
 
 Evaluated using Precision, Recall, mAP@50, and mAP@50–95.
 
